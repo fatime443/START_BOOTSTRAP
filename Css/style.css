@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none ;
+}
+.navigation-menu{
+    width: 80%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+header .navigation-menu .nav-logo{
+    float: left;
+}
+header .navigation-menu .nav-logo a{
+    text-transform: capitalize;
+    color:#BBB5B1 ;
+    font-size: 20px;
+    font-weight: 600;
+}
+header .navigation-menu .nav-logo a:hover{
+    color: white;
+    transition: .5s;
+}
+header .navigation-menu .menu{
+  float: right;
+}
+header .navigation-menu .menu ul li{
+    float: left;
+    padding: 0 10px;
+    
+}
+header .navigation-menu .menu ul li a:hover{
+    color: white;
+    transition: .5s;
+}
+header .navigation-menu .menu ul li a{
+    text-transform: capitalize;
+    color:#BBB5B1 ;
+    font-size: 18px;
+    font-weight: 600;
+}
+header{
+    background-image: url(../İmage/bg-masthead.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  
+}
+.head-text{
+    text-align: center;
+    color: white;
+    padding-top: 15em;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.head-text h1{
+    font-size: 56px;
+    margin-bottom: 20px;
+}
+.head-text hr{
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    border: none;
+    background-color: #f4623a
+}
+.head-text p{
+    font-size: 18px;
+    color:  rgba(255, 255, 255, 0.75);
+    margin: 20px auto 45px;
+    padding: 0 130px;
+}
+.head-text a{
+    padding: 20px 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F4623A;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.head-text a:hover{
+    background-color: rgb(250, 62, 62);
+    transition: .5s;
+   
+}
+.icon-section{
+    padding: 120px 0;
+    width: 80%;
+    margin: auto;
+}
+.icon-section hr{
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    border: none;
+    background-color: #f4623a
+}
+.icon-head h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #212529;
+    text-align: center;
+    
+}
+.icon-head{
+    margin-bottom: 25px;
+}
+
+.icon-item{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.icon-section p {
+    padding-top: 10px;
+    padding-right: 20px;
+    color:#6c757d ;
+    font-size: 16px;
+}
+.icon-item i{
+    color: #f24516;
+}
+.icon-item h6{
+    padding-top: 10px;
+    font-size: 24px;
+    color: #212529;
+}
+.img-section{
+    float: left;
+    
+}
+.img-section img{
+    object-fit: cover;
+    width: 33.33%;
+    float: left;
+}
+.page-article{
+    text-align: center;
+    padding: 50% 0 80px 0;
+    background-color:#343A40 ;
+}
+.page h2{
+    color: #ffffff;
+    font-size: 32px;
+    margin: 0 0 24px;
+    padding-bottom: 10px;
+}
+.page a{
+    color: #212529;
+    font-weight: 800;
+    font-size: 16px;
+    background: #f8f9fa;
+    padding: 20px 40px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+.page a:hover{
+    background-color: rgb(202, 205, 209);
+    transition: .5s;
+}
+nav{
+    text-align: center;
+    padding: 100px 250px;
+    background:#F4623A;
+}
+.nav-text h2{
+    font-size: 32px;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.nav-text hr{
+    width: 60px;
+    margin: auto;
+    height: 3px;
+    border: none;
+    background-color: white
+}
+.nav-text p{
+    color: #ffffff;
+    font-size: 16px;
+    margin: 20px auto 45px;
+    padding: 0 130px;
+}
+.nav-text a{
+    padding: 20px 40px;
+    background-color: white;
+    border-radius: 30px;
+    color: #212529;
+    transition: .5s;
+    font-size: 16px;
+    font-weight: 800;
+}
+.nav-text a:hover{
+    transition: .5s;
+    background-color:rgb(199, 194, 186) ;
+
+}
+footer{
+    float: right;
+    text-align: center;
+    padding: 0 15% 0;
+}
+.page1{
+    text-align: center;
+    padding: 10% 0 10px 0;
+    background-color:#ffffff ;
+}
+.page1 h2{
+    font-size: 32px;
+    color: #212529;
+    font-weight: lighter;
+
+} 
+.page1 hr{
+    width: 60px;
+    margin: 15px auto;
+    height: 3px;
+    border: none;
+    background-color: #f4623a
+}
+.page1 p{
+    margin: 20px auto 45px;
+    padding: 0 130px;
+    color: #6C757D; 
+    font-size: 16px;
+}
+.page1 a{
+    color: tomato;
+    transition: .5s;
+}
+.page1 a:hover{
+    color:red;
+}
+.icon-item-1{
+    padding-left: 160px;
+    float: right;
+}
+.page1 .text{
+    padding: 20% 0 80px 50px;
+    margin: 0 15px;
+    color: #6c757d ;
+    font-size: 14px;
+}
+
+
